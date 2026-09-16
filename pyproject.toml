@@ -9,3 +9,6 @@ description = "A basic calculator package with CI/CD"
 readme = "README.md"
 authors = [{ name = "Ali" }]
 dependencies = []
+
+[tool.setuptools]
+py-modules = ["calculator"]
